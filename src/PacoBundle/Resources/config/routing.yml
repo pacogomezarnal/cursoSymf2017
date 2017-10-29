@@ -1,0 +1,9 @@
+paco_homepage:
+    path:     /
+    defaults: { _controller: PacoBundle:Default:index }
+nombre_homepage:
+    path:     /nombre/{nombrePila}
+    defaults: { _controller: PacoBundle:Default:nombre,nombrePila:1}
+listaAlumnos_homepage:
+    path:     /listarAlumnos
+    defaults: { _controller: PacoBundle:Default:listaAlumnos }

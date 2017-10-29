@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body>
+        <div class="menu">
+          <ul>
+            <li>Menu 1</li>
+            <li>Menu 2</li>
+          </ul>
+        </div>
+        <div class="contenido">
+          {% block body %}{% endblock %}
+        </div>
+        <div class="pie">
+
+        </div>
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>

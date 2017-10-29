@@ -1,0 +1,20 @@
+paco_anot:
+    resource: "@PacoAnotBundle/Controller/"
+    type:     annotation
+    prefix:   /pacoAnot
+
+paco:
+    resource: "@PacoBundle/Resources/config/routing.yml"
+    prefix:   /paco
+
+paco_alumnos:
+    resource: "@PacoBundle/Resources/config/routingAlumno.yml"
+    prefix:   /paco/alumnos
+
+prueba:
+    resource: "@PruebaBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
